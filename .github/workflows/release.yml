@@ -3,7 +3,7 @@ name: github action tag release
 on:
   push:
     branches:
-      - realease
+      - release
 
 jobs:
   setup-build-deploy:
