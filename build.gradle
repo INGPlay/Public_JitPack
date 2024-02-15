@@ -11,6 +11,21 @@ version = '0.0.1-SNAPSHOT'
 java {
     sourceCompatibility = '17'
     targetCompatibility = '17'
+
+    withSourcesJar()
+    withJavadocJar()
+}
+
+javadoc {
+    options.encoding = 'UTF-8'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
 }
 
 configurations {

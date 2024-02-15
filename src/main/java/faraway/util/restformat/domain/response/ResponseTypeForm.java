@@ -5,9 +5,8 @@ import lombok.Getter;
 
 /**
  * ... In HTML
- * <select>
- *     <option value=${value}>${text}</option>
- * </select>
+ * text -> option.text
+ * value -> option.value
  */
 @Getter
 @AllArgsConstructor

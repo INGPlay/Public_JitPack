@@ -16,7 +16,7 @@ public final class ResponseUtil {
 
     /**
      *
-     * @param contents
+     * @param page
      * @return {
      *     "result" : true,
      *     "data" : {
