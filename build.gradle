@@ -9,6 +9,7 @@ version = '0.0.1-SNAPSHOT'
 
 java {
     sourceCompatibility = '17'
+    targetCompatibility = '17'
 }
 
 configurations {
@@ -29,6 +30,11 @@ dependencies {
 
     implementation 'org.springframework.data:spring-data-commons'
 
+}
+
+wrapper {
+    gradleVersion = "8.6"
+    distributionType = Wrapper.DistributionType.ALL
 }
 
 tasks.named('test') {
