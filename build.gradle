@@ -6,10 +6,10 @@ plugins {
 group = 'faraway.util'
 version = '0.0.1-SNAPSHOT'
 
-java {
-    sourceCompatibility = '17'
-    targetCompatibility = '17'
+sourceCompatibility = '17'
+targetCompatibility = '17'
 
+java {
     withSourcesJar()
     withJavadocJar()
 }
@@ -47,7 +47,7 @@ dependencies {
 }
 
 wrapper {
-    gradleVersion = "8.6"
+    gradleVersion = "8.5"
     distributionType = Wrapper.DistributionType.ALL
 }
 
